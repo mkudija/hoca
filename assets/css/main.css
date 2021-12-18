@@ -1,5 +1,5 @@
-@import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+/*@import url(fontawesome-all.min.css);*/
+/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");*/
 
 /*
 	Dimension by HTML5 UP
@@ -141,7 +141,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: serif;
+		/*font-family: "Source Sans Pro", sans-serif;*/
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1302,6 +1303,7 @@ input, select, textarea {
 				font-size: 2rem;
 			}
 
+
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
@@ -1330,9 +1332,9 @@ input, select, textarea {
 
 			#header .content p {
 				text-transform: uppercase;
-				letter-spacing: 0.2rem;
+				letter-spacing: 0.1rem;
 				font-size: 0.8rem;
-				line-height: 2;
+				/*line-height: 2;*/
 			}
 
 		#header nav ul {
@@ -1634,6 +1636,13 @@ input, select, textarea {
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
+
+		/*add transparent background*/
+		background: rgba(65, 65, 65, 0.73);
+	    padding: 2rem;
+	    /*color: #fff;*/
+	    /*text-align: center;*/
+	    /*font-size: 26px;*/
 	}
 
 		#footer .copyright {
