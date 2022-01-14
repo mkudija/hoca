@@ -1331,10 +1331,15 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				text-transform: uppercase;
-				letter-spacing: 0.1rem;
+				/*text-transform: uppercase;*/
+				/*letter-spacing: 0.1rem;*/
+				letter-spacing: 0.05rem;
 				font-size: 0.8rem;
 				/*line-height: 2;*/
+
+				/*add transparent background*/
+				background: rgba(65, 65, 65, 0.73);
+				border-radius: 0.2rem;
 			}
 
 		#header nav ul {
@@ -1713,7 +1718,7 @@ input, select, textarea {
 
 	#progress {
 	  float: left;
-	  width: 1%;
+	  width: 5.4%;
 	  height: 20px;
 	  background: #FF5D50;
 	  z-index: 333;
