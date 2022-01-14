@@ -141,8 +141,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: serif;
 		/*font-family: "Source Sans Pro", sans-serif;*/
+		/*qq*/
+		font-family: serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -153,7 +154,9 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		/*border-bottom: dotted 1px rgba(255, 255, 255, 0.5);*/
+		/*qq*/
+		border-bottom: dotted 2px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
@@ -300,6 +303,18 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+
+	/*FAQ question style*/
+	/*qq*/
+	summary.question {
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+		/*qq*/
+		/*letter-spacing: 0.05rem;*/
+		font-size: 0.8rem;
+		line-height: 2;
+		}
+
 
 /* Form */
 
@@ -1333,13 +1348,10 @@ input, select, textarea {
 			#header .content p {
 				/*text-transform: uppercase;*/
 				/*letter-spacing: 0.1rem;*/
+				/*qq*/
 				letter-spacing: 0.05rem;
 				font-size: 0.8rem;
 				/*line-height: 2;*/
-
-				/*add transparent background*/
-				background: rgba(65, 65, 65, 0.73);
-				border-radius: 0.2rem;
 			}
 
 		#header nav ul {
@@ -1643,6 +1655,7 @@ input, select, textarea {
 		text-align: center;
 
 		/*add transparent background*/
+		/*qq*/
 		background: rgba(65, 65, 65, 0.73);
 	    padding: 2rem;
 	    /*color: #fff;*/
@@ -1718,6 +1731,7 @@ input, select, textarea {
 
 	#progress {
 	  float: left;
+	  /*qq*/
 	  width: 5.4%;
 	  height: 20px;
 	  background: #FF5D50;
